@@ -1,0 +1,27 @@
+.banner-img {
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 720px;
+    min-width: 1336px;
+}
+
+.parrot-bg {
+    background-color: #00ff2a;
+}
+
+.parrot {
+    color: #00ff2a;
+}
+
+.tkt {
+  
+    background-color: rgb(255, 191, 15);
+}
+.tkt-red {
+  
+    background: rgb(247, 140, 156);
+}
+.raleway{
+    font-family: Raleway;
+}
