@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Genbu-Ticket</title>
+</head>
+
+<body>
+    <div class="flex items-center justify-center h-screen">
+        <div class="text-center bg-gray-100 p-16 rounded">
+            <img src="../images/success.png" alt="Success" class="mx-auto">
+            <p class="mt-4 text-3xl font-bold text-green-500">Success</p>
+            <p class="mt-2">Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you.</p>
+            <p class="mt-2">Shortly you will find a confirmation in your email.</p>
+            <button class="px-14 bg-green-500 py-4 rounded-3xl w-full mt-4" id="continue-button">Continue</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('continue-button').addEventListener('click', function() {
+                window.location.href = '../html/index.html';
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
