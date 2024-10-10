@@ -50,6 +50,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         selectedSeats.forEach(seat => {
+
+            
             selectedSeatsContainer.innerHTML +=
 
                 `<div class="flex text-gray-500 mb-2 justify-between">
