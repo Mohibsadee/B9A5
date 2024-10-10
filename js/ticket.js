@@ -51,8 +51,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         selectedSeats.forEach(seat => {
             selectedSeatsContainer.innerHTML +=
-            
-            `<div class="flex text-gray-500 mb-2 justify-between">
+
+                `<div class="flex text-gray-500 mb-2 justify-between">
                     <p class="px-6">${seat}</p>
                     <p class="px-6">Economy</p>
                     <p class="px-6">${seatPrice}</p>
@@ -97,14 +97,9 @@ document.addEventListener('DOMContentLoaded', function () {
         remainSeat.textContent = 40 - selectedSeats.length;
     }
 
-    document.getElementById('next-button').addEventListener('click', function() {
+    document.getElementById('next-button').addEventListener('click', function () {
         window.location.href = '../html/success.html';
     });
-    
-    document.addEventListener('DOMContentLoaded', function() {
-        document.getElementById('continue-button').addEventListener('click', function() {
-            window.location.href = '../html/index.html';
-        });
-    });
-    
+
+
 });
